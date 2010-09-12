@@ -1,0 +1,24 @@
+This is a dead simple wget.
+
+It's super simple and only uses standard java classes.
+
+Just a super simple utility.  I'm using it to download some source 
+files for another project so I thought I'd just put it up here in
+github land so someone can try and use it.
+
+This has no license because it's like licensing a for loop - dead
+simple stuff but a nice lesson for the java newbie
+
+This should work with any ole jdk because it uses dead simple classes too.
+
+To use:
+  public static void main(String[] args) {
+    Wget.wGet("thefile.zip", "http://example.com/downloads/thefile.zip");
+  }
+
+I only wrote this because I found myself using the http client library by 
+apache commons and the did some injection stuff and was just overdoing 
+all that java enterprise stuff when it's just for a simple indexer.
+
+That's what happens when you code late night.
+
